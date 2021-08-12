@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html>
+
+<script>
+	function mafunction1(){
+		document.getElementById("toff").innerHTML= ' <img src="photo.jpg" style="width:5%" onclick="default1()"/>';
+
+	}
+
+	function default1(){
+		document.getElementById("toff").innerHTML= ' <img src="photo.jpg" style="width:10%" onclick="mafunction1()"/>';
+	}
+
+	</script>
+<head>
+	<title>mon cv</title>
+	<meta charset="utf-8">
+	<link rel="stylesheet" type="text/css" href="stylecv.css">
+</head>
+<body>
+	<header><h1>Mohamed Lamine KONE<h1/></header>
+		<div id="toff">
+			<img src="photo.jpg" onclick="mafunction1()" width="5%"><br>
+		</div>
+		<p id="p1">
+			<b>Nationalité:</b> Malienne<br>
+			<b>Situation Matrimoniale:</b> Célibataire<br>
+			<b>Adresse:</b> Bamako, Niamakoro Rue:614, Porte:26<br>
+			<b>Téléphone:</b> +223 71 78 04 82<br>
+			<b>E-mail:</b> konelamine1122@gmail.com<br>
+		</p>
+	<section class="exper">
+		
+			<h2 id="experience">Mon expérience</h2>
+				<p>
+					<ul id="dcb">
+						<li><b> Du 08 Décembre 2020 à nos jours :</b></li>
+					</ul>
+					
+						Superviseur générale de l’ONG AMADICO-J4 dans le cadre du programme<br>
+						vigoureux d’alphabétisations (PVA) dans le cercle de DIOILA (CAP DIOILA, CAP FANA, CAP BELECO).
+							<p><b>Tâches :</b></p>
+							Faire le tour des centres d’alphabétisation afin de superviser<br>
+							 la méthodologie des animateurs, l’état des centres, et la participation des auditeurs.
+				</p>
+				
+	</section>
+
+	<section class="comp">
+		
+			<h2 id="competence">Mes compétences</h2>
+				<ul>
+					<li>Réalisation de logo professionnelle en 2D et 3D</li>
+					<li>création de flyers et affiches publicitaires</li>
+					<li>montage vidéo.</li>
+				</ul>
+		
+	</section>
+
+	<section class="form">
+		
+			<h2 id="formation">Ma formation</h2>
+				<ul>
+					<li>2017-2019 : Etudes supérieures de génie logiciel à l’université Technolab-ISTA.</li>
+					<li>2011-2014 : Etudes secondaires au lycée La Bruyère de Faladiè.</li>
+					<li>2007-2009 : Etudes de second cycle à l’école privée KOFANA de Niamakoro.</li>
+					<li>2001-2006 : Etudes de premier cycle à l’école privée ARC-EN-CIEL de Niamakoro.</li>
+				</ul>
+		
+	</section>
+
+	<div>
+		<button onclick="myfunction()" id="dow">Télécharger le cv</button>
+			<script>
+				function myfunction(){
+					alert("Voici mon CV")
+				}
+			</script>
+
+	</div>
+
+	<footer>Copyright ORANGE DIGITAL KALANSO</footer>
+
+</body>
+</html>
